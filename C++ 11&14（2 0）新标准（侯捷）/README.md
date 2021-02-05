@@ -4,7 +4,31 @@ Date: Jan 23, 2021
 Status: Finished
 Tags: Coding
 
-- 目录
+- [C++ 11&14（2.0）新标准（侯捷）](#c---11-14-20--------)
+  * [Variadic Templates 多参数模板](#variadic-templates------)
+    + [hash function 的实现](#hash-function----)
+    + [tuple 的实现](#tuple----)
+  * [模板后>>之间的空格](#----------)
+  * [nullptr 与 std::nullptr_t](#nullptr---std--nullptr-t)
+  * [auto](#auto)
+  * [Uniform Initialization 初始化](#uniform-initialization----)
+  * [Initializer Lists](#initializer-lists)
+  * [explicit for ctors taking more than on argument](#explicit-for-ctors-taking-more-than-on-argument)
+  * [Range-base for statement 增强 for](#range-base-for-statement----for)
+  * [=default 与 =delete](#-default----delete)
+  * [Alias Template 化名模板](#alias-template-----)
+    + [template template parameter (模板模板参数)](#template-template-parameter---------)
+  * [Type Alias 类型别名(typedef  与 using)](#type-alias------typedef----using-)
+  * [noexcept 忽略异常](#noexcept-----)
+  * [override 改写](#override---)
+  * [final  不能被继承](#final-------)
+  * [decltype 类似于 typeof](#decltype-----typeof)
+  * [lambdas](#lambdas)
+  * [Rvalue reference (右值引用)  与 move](#rvalue-reference-----------move)
+    + [Perfect Forwarding 完美转移](#perfect-forwarding-----)
+    + [Move-aware class](#move-aware-class)
+
+
 
 ## Variadic Templates 多参数模板
 

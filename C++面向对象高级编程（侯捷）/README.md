@@ -3,9 +3,47 @@
 Status: Finished
 Tags: Coding
 
-# C++面向对象高级编程
-
----
+- [C++面向对象高级编程（侯捷）](#c--------------)
+  * [对象的两个经典分类](#---------)
+  * [Header文件的防卫式声明](#header--------)
+  * [Complex类](#complex-)
+  * [const-常量成员函数(不改变数据的函数)](#const-----------------)
+  * [参数传递](#----)
+    + [by value](#by-value)
+    + [by reference](#by-reference)
+  * [返回值传递](#-----)
+  * [友元函数](#----)
+  * [操作符重载](#-----)
+    + [成员函数形式](#------)
+    + [非成员函数形式](#-------)
+  * [拷贝构造、拷贝赋值、析构函数](#--------------)
+    + [三个重要函数](#------)
+    + [拷贝赋值的三个步骤](#---------)
+  * [内存管理中的栈、堆](#---------)
+    + [static local object的生命期](#static-local-object----)
+    + [内存管理](#----)
+    + [为什么array new要搭配array delete](#---array-new---array-delete)
+    + [new 和 delete 的重载](#new---delete----)
+  * [static 静态](#static---)
+    + [单例模式](#----)
+  * [函数模版与类模版的区别](#-----------)
+    + [成员模版](#----)
+  * [组合、委托、继承](#--------)
+    + [组合（Composition）](#---composition-)
+    + [委托（Delegation 或 Composition by reference）](#---delegation---composition-by-reference-)
+    + [继承（Inheritance）](#---inheritance-)
+  * [虚函数&多态（virtual）](#-------virtual-)
+    + [继承跟组合一起存在时的析构情况](#---------------)
+    + [委托+继承](#-----)
+  * [转换函数](#----)
+    + [non-explicit-one-argument-ctor](#non-explicit-one-argument-ctor)
+    + [explicit](#explicit)
+  * [pointer-like-class](#pointer-like-class)
+    + [智能指针](#----)
+    + [迭代器](#---)
+  * [Reference（内存角度）](#reference------)
+  * [关于vptr和vtbl（虚指针、虚表）](#--vptr-vtbl--------)
+    + [多态的应用例子](#-------)
 
 ---
 
